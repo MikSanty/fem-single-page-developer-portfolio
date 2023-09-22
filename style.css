@@ -67,6 +67,7 @@ a:hover {
 
 /* HEADER */
 .header {
+  margin-top: 20px;
 }
 
 .header__nav {
@@ -79,7 +80,6 @@ a:hover {
 
 /* used clamp with fluid typography calculator to reduce the use of @media*/
 .header__home {
-  margin-top: 20px;
   font-size: 1.5rem;
   font-size: clamp(1.5rem, 1.03rem + 2.04vw, 2rem);
   color: var(--text1);
